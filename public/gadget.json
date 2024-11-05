@@ -1,0 +1,175 @@
+[
+  {
+      "_id": 1,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.postimg.cc/SNr4jHxc/dell-xps-13.avif",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 4.8
+  },
+  {
+      "_id": 2,
+      "product_title": "Hp ProBook 13th",
+      "product_image": "https://i.postimg.cc/fTB4MX8K/Hp-Pro-Book-13th.webp",
+      "category": "Laptops",
+      "price": 1249,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": false,
+      "rating": 4.8
+  },
+  {
+      "_id": 3,
+      "product_title": "Lenovo X1 Carbon",
+      "product_image": "https://i.postimg.cc/0Qp3FJ67/Lenovo-X1-Carbon.avif",
+      "category": "Laptops",
+      "price": 1400,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 3.8
+  },
+  {
+      "_id": 4,
+      "product_title": "Microsoft Surface 4",
+      "product_image": "https://i.postimg.cc/pTtcfX0r/Microsoft-Surface-4.webp",
+      "category": "Laptops",
+      "price": 1600,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 4.8
+  },
+  {
+      "_id": 5,
+      "product_title": "VivoBook Oled 15",
+      "product_image": "https://i.postimg.cc/qvP1rvHw/Vivo-Book-Oled-15.png",
+      "category": "Laptops",
+      "price": 1570,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 4.8
+  },
+  {
+      "_id": 6,
+      "product_title": "Assus GenBook 14",
+      "product_image": "https://i.postimg.cc/NMg7GyJ6/Assus-Gen-Book-14.png",
+      "category": "Laptops",
+      "price": 1720,
+      "description": "A powerful and portable laptop.",
+      "specification": [
+          "Intel Core i7-13700H processor",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch OLED display"
+      ],
+      "availability": true,
+      "rating": 4.8
+  },
+ 
+
+  {
+      "_id": 7,
+      "product_title": "Apple AirPods Pro",
+      "product_image": "https://i.postimg.cc/7Yp3GttY/Apple-Air-Pods-Pro.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "High-quality wireless earbuds with active noise cancellation.",
+      "specification": [
+          "Active Noise Cancellation",
+          "Adaptive EQ",
+          "MagSafe Charging Case"
+      ],
+      "availability": true,
+      "rating": 4.5
+  },
+  {
+      "_id": 8,
+      "product_title": "Apple AirPods Gen 3",
+      "product_image": "https://example.com/apple-airpods-pro.jpg",
+      "category": "Accessories",
+      "price": 300,
+      "description": "High-quality wireless earbuds with active noise cancellation.",
+      "specification": [
+          "Active Noise Cancellation",
+          "Adaptive EQ",
+          "MagSafe Charging Case"
+      ],
+      "availability": true,
+      "rating": 4.5
+  },
+
+
+  {
+      "_id": 9,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.postimg.cc/ZKFNnYNj/Apple-Air-Pods-Gen-3.jpg",
+      "category": "Phones",
+      "price": 1099,
+      "description": "The latest flagship smartphone from Apple.",
+      "specification": [
+          "A16 Bionic chip",
+          "Dynamic Island",
+          "48MP Main Camera"
+      ],
+      "availability": true,
+      "rating": 4.9
+  },
+  {
+      "_id": 10,
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://i.postimg.cc/J0Cy7S49/i-Phone-15-Pro-Max.jpg",
+      "category": "Phones",
+      "price": 1200,
+      "description": "The latest flagship smartphone from Apple.",
+      "specification": [
+          "A16 Bionic chip",
+          "Dynamic Island",
+          "48MP Main Camera"
+      ],
+      "availability": true,
+      "rating": 4.9
+  },
+  {
+    "_id": 11,
+    "product_title": "",
+    "product_image": "",
+    "category": "Smart Watches",
+    "price": 0,
+    "description": "",
+    "specification": [],
+    "availability": false,
+    "rating": 0
+}
+ 
+]
+

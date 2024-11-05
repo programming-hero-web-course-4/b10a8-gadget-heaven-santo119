@@ -5,11 +5,42 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
+import MainLayout from './componets/MainLayout/MainLayout'
+import ErrorElement from './componets/ErrorElement/ErrorElement'
+import Home from './pages/Home'
+import ProductsCard from './componets/ProductsCard/ProductsCard'
+import Products from './pages/Products'
+import DashBoard from './pages/DashBoard'
+import Statistics from './pages/Statistics'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element
+    element: <MainLayout></MainLayout>,
+    errorElement: <ErrorElement></ErrorElement>,
+    children:[
+      {
+        path: '/',
+        element: <Home></Home>,
+        loader: ()=> fetch('../gadget.json')
+        
+        
+      },
+      {
+        path: '/products',
+        element: <Products></Products>
+      },
+      {
+        path: '/dashBoard',
+        element: <DashBoard></DashBoard>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      }
+      
+
+    ]
   }
 ])
 
