@@ -1,7 +1,7 @@
 
-1. Github Repository Link:
+1. Github Repository Link:https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-santo119
 
-2. Github Live Link:
+2. Github Live Link:https://repulsive-snakes.surge.sh/
 
 3. List of fundamental concept:
 
