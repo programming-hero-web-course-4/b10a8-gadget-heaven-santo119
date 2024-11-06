@@ -1,12 +1,14 @@
 
-import React from 'react';
+import React, { useContext } from 'react';
 import icon1 from '../../assets/icon.1.png'
 import icon2 from '../../assets/icon.2.png'
 import { Link, NavLink, useLocation } from 'react-router-dom';
+import { addCartContext } from '../MainLayout/MainLayout';
 
 const NavBar = () => {
     const location = useLocation()
     const isHomePage = location.pathname === '/' 
+    const {cart} = useContext(addCartContext)
     return (
         <div className="navbar text-white bg-[#9538E2] px-4 mt-5">
             <div className="navbar-start">
@@ -36,10 +38,12 @@ const NavBar = () => {
                 Home
               </Link>
 
-              <Link to="/products"
-                className={location.pathname === "/products" ? "btn btn-active btn-accent" : ""}>
+              {/* <Link to="/details"
+                className={location.pathname === "/details" ? "btn btn-active btn-accent" : ""}>
                 Products
-              </Link>
+              </Link> */}
+
+             
 
               <Link to="/dashBoard"
                 className={location.pathname === "/dashBoard" ? "btn btn-active btn-accent" : ""}>
@@ -64,10 +68,10 @@ const NavBar = () => {
                 Home
               </Link>
 
-              <Link to="/products"
-                className={location.pathname === "/products" ? "btn btn-active btn-accent" : ""}>
+              {/* <Link to="/details"
+                className={location.pathname === "/details" ? "btn btn-active btn-accent" : ""}>
                 Products
-              </Link>
+              </Link> */}
 
               <Link to="/dashBoard"
                 className={location.pathname === "/dashBoard" ? "btn btn-active btn-accent" : ""}>
@@ -84,11 +88,18 @@ const NavBar = () => {
             <div className="navbar-end gap-3">
                 <div>     
                 <Link to='/' className='btn btn-circle'>
-                <img src={icon1} alt="" /></Link>
+               <div>
+                <img src={icon1} alt="" />
+               </div>
+                </Link>
                 </div>
+
                 <div>
                 <Link to='/' className='btn btn-circle'>
-                    <img src={icon2} alt="" />
+                   <div >
+                   
+                   <img src={icon2} alt="" />
+                   </div>
                 </Link>
                 </div>
             </div>

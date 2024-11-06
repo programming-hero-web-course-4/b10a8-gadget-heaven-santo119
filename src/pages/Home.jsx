@@ -1,6 +1,7 @@
 import { Outlet, useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import Banner from '../componets/Banner/Banner'
 import { useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 
 
 
@@ -9,19 +10,20 @@ const Home = () => {
     const {category} = useParams()
     const data = useLoaderData()
 
-    const [categories, setCategories] = useState('All')
+    const [categories, setCategories] = useState('All Products')
     const [products, setProducts] = useState([])
     const navigate = useNavigate()
 
     useEffect(()=>{
-        document.title =" Home | Gadget Heaven"
+        document.title ="Gadget Heaven | Home "
         setProducts(data)
     },[])
 
     const handleCategoryClick = (event,category) => {
         event.preventDefault()
+        toast.success('click to categories')
         setCategories(category)
-        if(category === 'All'){
+        if(category === 'All Products'){
             setProducts(data) 
         }else{
             const filterData = data.filter(
@@ -36,6 +38,7 @@ const Home = () => {
     const handleViewDetails = (event, productId) => {
         event.preventDefault()
         navigate(`/details/${productId}`)
+        toast.success('view to product details')
     }
 
     
@@ -51,11 +54,11 @@ const Home = () => {
            
                 <div className='w-1/3'>
 
-                <h2 className="text-center text-2xl font-bold  mb-4"> AllProducts </h2>
+               
                        
                 <ul className="flex flex-col gap-5">
                     {
-                        ["All","Laptops", "Accessories", "Phones", "Smart Watch"].map((category) =>
+                        ["All Products","Laptops", "Accessories", "Phones", "Smart Watch"].map((category) =>
                         ( <li key={category} className="text-[18px]">
                             <button
                               className={`btn w-[192px] ${
@@ -64,6 +67,7 @@ const Home = () => {
                               style={{ color: "gray" }}
                               onClick={(event) => handleCategoryClick(event, category)}>
                               {category}
+                             
                             </button>
                           </li>)
                         )

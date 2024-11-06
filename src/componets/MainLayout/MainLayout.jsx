@@ -2,6 +2,7 @@ import { createContext, useState } from "react";
 import NavBar from '../NavBar/NavBar'
 import { Outlet } from "react-router-dom";
 import Footer from '../Footer/Footer'
+import  { Toaster } from 'react-hot-toast';
 
 
 export const addCartContext = createContext()
@@ -24,6 +25,7 @@ const MainLayout = () => {
             <WishCartContext.Provider value={{wishCart, addWishCart,setWishCart}}>
                 <addCartContext.Provider value={{cart, setCart,addToCart}}>
                     <div>
+                        <Toaster></Toaster>
                        <NavBar></NavBar>
                        <div className='min-h-[calc(100vh-232px)] container mx-auto px-8'>
                         <Outlet></Outlet>

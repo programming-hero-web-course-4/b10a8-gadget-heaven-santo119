@@ -1,6 +1,6 @@
 [
   {
-      "_id": 1,
+      "product_id": 1,
       "product_title": "Dell XPS 13",
       "product_image": "https://i.postimg.cc/SNr4jHxc/dell-xps-13.avif",
       "category": "Laptops",
@@ -16,7 +16,7 @@
       "rating": 4.8
   },
   {
-      "_id": 2,
+      "product_id": 2,
       "product_title": "Hp ProBook 13th",
       "product_image": "https://i.postimg.cc/fTB4MX8K/Hp-Pro-Book-13th.webp",
       "category": "Laptops",
@@ -28,11 +28,11 @@
           "512GB SSD",
           "13.4-inch OLED display"
       ],
-      "availability": false,
+      "availability": true,
       "rating": 4.8
   },
   {
-      "_id": 3,
+      "product_id": 3,
       "product_title": "Lenovo X1 Carbon",
       "product_image": "https://i.postimg.cc/0Qp3FJ67/Lenovo-X1-Carbon.avif",
       "category": "Laptops",
@@ -48,7 +48,7 @@
       "rating": 3.8
   },
   {
-      "_id": 4,
+      "product_id": 4,
       "product_title": "Microsoft Surface 4",
       "product_image": "https://i.postimg.cc/pTtcfX0r/Microsoft-Surface-4.webp",
       "category": "Laptops",
@@ -64,7 +64,7 @@
       "rating": 4.8
   },
   {
-      "_id": 5,
+      "product_id": 5,
       "product_title": "VivoBook Oled 15",
       "product_image": "https://i.postimg.cc/qvP1rvHw/Vivo-Book-Oled-15.png",
       "category": "Laptops",
@@ -80,7 +80,7 @@
       "rating": 4.8
   },
   {
-      "_id": 6,
+      "product_id": 6,
       "product_title": "Assus GenBook 14",
       "product_image": "https://i.postimg.cc/NMg7GyJ6/Assus-Gen-Book-14.png",
       "category": "Laptops",
@@ -92,13 +92,13 @@
           "512GB SSD",
           "13.4-inch OLED display"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.8
   },
  
 
   {
-      "_id": 7,
+      "product_id": 7,
       "product_title": "Apple AirPods Pro",
       "product_image": "https://i.postimg.cc/7Yp3GttY/Apple-Air-Pods-Pro.jpg",
       "category": "Accessories",
@@ -113,7 +113,7 @@
       "rating": 4.5
   },
   {
-      "_id": 8,
+      "product_id": 8,
       "product_title": "Apple AirPods Gen 3",
       "product_image": "https://example.com/apple-airpods-pro.jpg",
       "category": "Accessories",
@@ -130,7 +130,7 @@
 
 
   {
-      "_id": 9,
+      "product_id": 9,
       "product_title": "iPhone 14 Pro Max",
       "product_image": "https://i.postimg.cc/ZKFNnYNj/Apple-Air-Pods-Gen-3.jpg",
       "category": "Phones",
@@ -141,11 +141,11 @@
           "Dynamic Island",
           "48MP Main Camera"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.9
   },
   {
-      "_id": 10,
+      "product_id": 10,
       "product_title": "iPhone 15 Pro Max",
       "product_image": "https://i.postimg.cc/J0Cy7S49/i-Phone-15-Pro-Max.jpg",
       "category": "Phones",
@@ -160,7 +160,7 @@
       "rating": 4.9
   },
   {
-    "_id": 11,
+    "product_id": 11,
     "product_title": "",
     "product_image": "",
     "category": "Smart Watches",
