@@ -4,6 +4,7 @@ import { addCartContext, WishCartContext } from '../componets/MainLayout/MainLay
 import close from '../assets/close.png'
 import frame from '../assets/frame.png'
 import toast from 'react-hot-toast';
+import Modal from '../componets/Modal/Modal';
 
 
 const DashBoard = () => {
@@ -24,9 +25,11 @@ const DashBoard = () => {
 
         
     const purchaseProducts = () => {
-        notify("Products purchased successfully");
         setTotal(0);
         setCart([]);
+        toast.success("Products purchased successfully");
+        
+        
     };
 
     const removeFromWishlist = (index) => {
@@ -107,6 +110,7 @@ const DashBoard = () => {
                   cart.length === 0 ? "btn-disabled" : null
                 } btn mx-1 bg-[#8332C5] text-white rounded-3xl`}
                 onClick={purchaseProducts}>
+                  
                 Purchase
               </button>
             </div>

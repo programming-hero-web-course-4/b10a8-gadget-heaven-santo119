@@ -37,12 +37,6 @@ const NavBar = () => {
                 className={location.pathname === "/" ? "btn btn-active btn-accent" : ""}>
                 Home
               </Link>
-
-              {/* <Link to="/details"
-                className={location.pathname === "/details" ? "btn btn-active btn-accent" : ""}>
-                Products
-              </Link> */}
-
              
 
               <Link to="/dashBoard"
@@ -54,7 +48,10 @@ const NavBar = () => {
                 className={location.pathname === "/statistics" ? "btn btn-active btn-accent" : ""}>
                 Statistics
               </Link>
-                       
+
+             
+
+         
                     </ul>
                 </div>
                 
@@ -68,10 +65,7 @@ const NavBar = () => {
                 Home
               </Link>
 
-              {/* <Link to="/details"
-                className={location.pathname === "/details" ? "btn btn-active btn-accent" : ""}>
-                Products
-              </Link> */}
+             
 
               <Link to="/dashBoard"
                 className={location.pathname === "/dashBoard" ? "btn btn-active btn-accent" : ""}>
@@ -82,6 +76,8 @@ const NavBar = () => {
                 className={location.pathname === "/statistics" ? "btn btn-active btn-accent" : ""}>
                 Statistics
               </Link>
+
+             
                    
                 </ul>
             </div>
@@ -89,7 +85,7 @@ const NavBar = () => {
                 <div>     
                 <Link to='/' className='btn btn-circle'>
                <div>
-                <img src={icon1} alt="" />
+                <img src={icon1}  alt="" />
                </div>
                 </Link>
                 </div>

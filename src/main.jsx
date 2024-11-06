@@ -12,6 +12,8 @@ import ProductsCard from './componets/ProductsCard/ProductsCard'
 import Products from './pages/Products'
 import DashBoard from './pages/DashBoard'
 import Statistics from './pages/Statistics'
+import ContactUs from './pages/ContactUs'
+
 
 const router = createBrowserRouter([
   {
@@ -43,9 +45,10 @@ const router = createBrowserRouter([
       },
       
       
-
     ]
   }
+  
+ 
 ])
 
 
